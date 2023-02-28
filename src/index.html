@@ -11,16 +11,16 @@
     <title>Admin Dashboard</title>
   </head>
   <body>
-    <div id="parent" class="h-screen">
+    <div id="parent" class="h-screen grid grid-cols-2">
       <div id="left-sidebar" class="fixed bg-white p-10 text-center">
         <div>
           <img class="w-[150px]" src="/images/Farzad logo.svg" alt="Logo" />
         </div>
 
         <div id="profile section">
-          <div class="border-[5px] rounded-full">
+          <div>
             <img
-              class="w-[100px] rounded-full"
+              class="w-[150px] border-[5px] border-r-red-500 rounded-full p-3"
               src="/images/profile.jpg"
               alt="my profile"
             />
@@ -33,22 +33,59 @@
               <i class="bx bxs-bowl-hot" style="color: #a02626">37</i>
             </div>
           </div>
+        </div>
 
-          <div>
-            <ul>
-              <li>
+        <div id="sidebar-menu" class="text-left text-xl">
+          <ul>
+            <a href="#">
+              <li class="flex items-center gap-4">
                 <i class="bx bxs-receipt" style="color: #aaa6a6"></i>Recipes
               </li>
-              <li>
+            </a>
+
+            <a href="#">
+              <li class="flex items-center gap-4">
                 <i class="bx bxs-heart" style="color: #aaa6a6"></i>Favorites
               </li>
-              <li>
+            </a>
+
+            <a href="#">
+              <li class="flex items-center gap-4">
                 <i class="bx bxs-collection" style="color: #aaa6a6"></i>Courses
               </li>
-              <li>
+            </a>
+
+            <a href="#">
+              <li class="flex items-center gap-4">
                 <i class="bx bx-world" style="color: #aaa6a6"></i>Community
               </li>
-            </ul>
+            </a>
+          </ul>
+        </div>
+
+        <div id="end-profile">
+          <div class="flex items-center justify-center">
+            <img
+              class="h-[30px] rounded-full z-0"
+              src="/images/profile.jpg"
+              alt="person1"
+            />
+            <img
+              class="h-[40px] rounded-full z-10 -mt-4"
+              src="/images/profile.jpg"
+              alt="person2"
+            />
+            <i
+              class="bx bx-plus text-2xl w-8 bg-red-700 rounded-full"
+              style="color: #ffffff"
+            ></i>
+          </div>
+
+          <div>
+            <p>
+              Create a team and <br />
+              take part in <a href="#">TV Show</a>
+            </p>
           </div>
         </div>
       </div>
