@@ -3,7 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link href="/dist/output.css" rel="stylesheet" />
+    <title>Admin Dashboard</title>
   </head>
-  <body></body>
+  <body>
+    <div id="parent" class="h-screen">
+      <div id="left-sidebar" class="fixed bg-white p-10 text-center">
+        <div>
+          <img class="w-[150px]" src="/images/Farzad logo.svg" alt="Logo" />
+        </div>
+
+        <div id="profile section">
+          <div class="border-[5px] rounded-full">
+            <img
+              class="w-[100px] rounded-full"
+              src="/images/profile.jpg"
+              alt="my profile"
+            />
+          </div>
+
+          <div>
+            <h4>Farzad Afzalli</h4>
+            <p>Chef de parte</p>
+            <div>
+              <i class="bx bxs-bowl-hot" style="color: #a02626">37</i>
+            </div>
+          </div>
+
+          <div>
+            <ul>
+              <li>
+                <i class="bx bxs-receipt" style="color: #aaa6a6"></i>Recipes
+              </li>
+              <li>
+                <i class="bx bxs-heart" style="color: #aaa6a6"></i>Favorites
+              </li>
+              <li>
+                <i class="bx bxs-collection" style="color: #aaa6a6"></i>Courses
+              </li>
+              <li>
+                <i class="bx bx-world" style="color: #aaa6a6"></i>Community
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

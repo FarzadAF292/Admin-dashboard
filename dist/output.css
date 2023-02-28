@@ -513,20 +513,39 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.fixed {
+  position: fixed;
 }
 
-.font-bold {
-  font-weight: 700;
+.h-screen {
+  height: 100vh;
 }
 
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity));
+.w-\[100px\] {
+  width: 100px;
 }
 
-.underline {
-  text-decoration-line: underline;
+.w-\[150px\] {
+  width: 150px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-\[5px\] {
+  border-width: 5px;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
